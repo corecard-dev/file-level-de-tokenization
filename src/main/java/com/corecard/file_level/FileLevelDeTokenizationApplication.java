@@ -21,7 +21,7 @@ public class FileLevelDeTokenizationApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws IOException {
 		if (args.length < 2) {
-			System.out.println("Use: java -jar FileLevelDeTokenizationApplication.jar <file1.txt> <file2.txt>");
+			System.out.println("Use: java -jar file-level-de-tokenization-1.0.jar ACH_tokenized.txt ACH_tokenized.txt");
 			return;
 		}
 
