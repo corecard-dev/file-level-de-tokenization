@@ -7,8 +7,10 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@ToString
 public class Structure {
 
-    private LineA2 lineA2;
+    private LineBody lineBody;
+    private LineSplitedBody lineSplitedBody;
 
 }
